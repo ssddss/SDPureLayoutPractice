@@ -20,7 +20,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 //    [self setAutomaticallyAdjustsScrollViewInsets:NO];
-    self.view.backgroundColor = [UIColor blueColor];
 }
 - (NSArray *)demoTitles
 {
