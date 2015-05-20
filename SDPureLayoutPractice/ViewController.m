@@ -69,7 +69,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog(@"%ld",indexPath.row);
-    NSString *viewControllerClassName = [NSString stringWithFormat:@"ALiOSDemo%@ViewController", @(indexPath.row + 1)];
+    NSString *viewControllerClassName = [NSString stringWithFormat:@"SDPureLayoutDemo%@ViewController", @(indexPath.row + 1)];
     Class viewControllerKlass = NSClassFromString(viewControllerClassName);
     NSAssert(viewControllerKlass, @"Class should not be nil!");
     NSAssert([viewControllerKlass isSubclassOfClass:[UIViewController class]], @"Class should be a view controller!");
