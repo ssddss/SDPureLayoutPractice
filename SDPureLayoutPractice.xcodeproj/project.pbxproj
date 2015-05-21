@@ -16,6 +16,7 @@
 		E525BE6B1B09602400D168A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E525BE691B09602400D168A2 /* LaunchScreen.xib */; };
 		E525BE771B09602500D168A2 /* SDPureLayoutPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E525BE761B09602500D168A2 /* SDPureLayoutPracticeTests.m */; };
 		E55D19001B0C017F00A7F254 /* SDPureLayoutDemo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E55D18FF1B0C017F00A7F254 /* SDPureLayoutDemo3ViewController.m */; };
+		E55D19351B0D514800A7F254 /* SDPureLayoutDemo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E55D19341B0D514800A7F254 /* SDPureLayoutDemo1ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		E525BE801B0962B300D168A2 /* SDPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPrefixHeader.pch; sourceTree = "<group>"; };
 		E55D18FE1B0C017F00A7F254 /* SDPureLayoutDemo3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPureLayoutDemo3ViewController.h; sourceTree = "<group>"; };
 		E55D18FF1B0C017F00A7F254 /* SDPureLayoutDemo3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPureLayoutDemo3ViewController.m; sourceTree = "<group>"; };
+		E55D19331B0D514800A7F254 /* SDPureLayoutDemo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPureLayoutDemo1ViewController.h; sourceTree = "<group>"; };
+		E55D19341B0D514800A7F254 /* SDPureLayoutDemo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPureLayoutDemo1ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 			children = (
 				E55D18FE1B0C017F00A7F254 /* SDPureLayoutDemo3ViewController.h */,
 				E55D18FF1B0C017F00A7F254 /* SDPureLayoutDemo3ViewController.m */,
+				E55D19331B0D514800A7F254 /* SDPureLayoutDemo1ViewController.h */,
+				E55D19341B0D514800A7F254 /* SDPureLayoutDemo1ViewController.m */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E55D19001B0C017F00A7F254 /* SDPureLayoutDemo3ViewController.m in Sources */,
+				E55D19351B0D514800A7F254 /* SDPureLayoutDemo1ViewController.m in Sources */,
 				E525BE631B09602400D168A2 /* ViewController.m in Sources */,
 				E525BE601B09602400D168A2 /* AppDelegate.m in Sources */,
 				E525BE5D1B09602400D168A2 /* main.m in Sources */,
