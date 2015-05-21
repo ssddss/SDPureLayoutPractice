@@ -35,9 +35,9 @@
 - (void)updateViewConstraints {
     if (!_didSetupConstraints) {
         
-//        [self.blueView autoCenterInSuperview];
-        [self.blueView autoAlignAxisToSuperviewAxis:ALAxisVertical];
-        [self.blueView autoPinEdge:ALEdgeTop toEdge:ALEdgeTop ofView:self.view withOffset:64];
+        [self.blueView autoCenterInSuperview];
+//        [self.blueView autoAlignAxisToSuperviewAxis:ALAxisVertical];
+//        [self.blueView autoPinEdge:ALEdgeTop toEdge:ALEdgeTop ofView:self.view withOffset:64];
         
         [self.blueView autoSetDimensionsToSize:CGSizeMake(50.0, 50.0)];
         
